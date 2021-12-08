@@ -5,3 +5,24 @@
   display: block;
   box-sizing: border-box;
 }
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Lato, sans-serif;
+  outline: 0;
+}
+
+*:focus {
+  outline: 0;
+}
+
+body {
+  color: #333;
+  background-color: #fff;
+  font-size: 14px;
+  line-height: 1.42857143;
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+}
