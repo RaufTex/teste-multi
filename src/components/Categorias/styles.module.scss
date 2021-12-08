@@ -1,0 +1,213 @@
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 60vh;
+  background-color: #fff;
+}
+
+.mainBanner {
+  width: 100%;
+  max-width: 1216px;
+  display: block;
+}
+
+.bannerContainer {
+  display: block;
+  position: relative;
+}
+.firstBanner {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+.firstBannerTrack {
+  position: relative;
+  top: 0;
+  left: 0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  a {
+    display: block;
+    float: left;
+    height: 100%;
+    min-height: 1px;
+    border: none;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    color: #337ab7;
+    background-color: transparent;
+
+    img {
+      height: auto;
+      width: 100%;
+
+      vertical-align: middle;
+      border: 0;
+    }
+  }
+}
+
+.infoCommerce {
+  position: absolute;
+  display: flex;
+  bottom: -46px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  max-width: 688px;
+  padding: 24px 32px 24px 0;
+  background: #ffffff;
+  box-shadow: 0px 2.76726px 2.21381px rgb(160 160 160 / 2%),
+    0px 6.6501px 5.32008px rgb(160 160 160 / 3%),
+    0px 12.5216px 10.0172px rgb(160 160 160 / 4%),
+    0px 22.3363px 17.869px rgb(160 160 160 / 4%),
+    0px 41.7776px 33.4221px rgb(160 160 160 / 5%),
+    0px 100px 80px rgb(160 160 160 / 7%);
+  span {
+    display: flex;
+    align-items: center;
+    color: #858482;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 21px;
+    margin-left: 24px;
+  }
+}
+.iconBannerCommerce {
+  margin-right: 8px;
+  color: #858482;
+  font-size: 24px;
+  font-family: 'boxicons' !important;
+  font-weight: normal;
+  font-style: normal;
+  font-variant: normal;
+  line-height: 1;
+  display: inline-block;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+}
+
+.mainSpacing {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  max-width: 1248px;
+  width: 100%;
+}
+
+.mainContent {
+  display: flex;
+  flex-direction: column;
+  padding: 64px 16px;
+  width: 100%;
+}
+
+.horizontalDeptos {
+  margin-top: 32px;
+  height: 196px;
+  display: block;
+  h4 {
+    color: #1a1918;
+    margin: 0 auto;
+    text-align: center;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 3rem;
+    font-family: inherit;
+  }
+}
+
+.scrollList {
+  margin-top: 24px;
+  padding-left: 8px;
+  margin-left: -8px;
+  overflow: visible;
+  display: flex;
+  position: relative;
+  box-sizing: border-box;
+  user-select: none;
+  touch-action: pan-y;
+  -webkit-tap-highlight-color: transparent;
+  list-style: none !important;
+  margin-bottom: 10px;
+}
+.mainListDeptos {
+  padding-left: 13px;
+  transform: translate3d(0, 0, 0);
+  position: relative;
+  display: block;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.mainSlickTrack {
+  position: relative;
+  top: 0;
+  left: 0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+}
+.slickSlide {
+  margin-right: 24px;
+  max-width: 96px;
+  display: block;
+  float: left;
+  height: 100%;
+  min-height: 1px;
+  list-style: none !important;
+  text-align: -webkit-match-parent;
+  a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 450;
+    font-size: 16px;
+    line-height: 24px;
+    border: none;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    color: #337ab7;
+    background-color: transparent;
+    cursor: pointer;
+    span {
+      color: #595857;
+      margin-top: 6px;
+      text-align: center;
+      max-width: 120px;
+      overflow-wrap: break-word;
+      font-weight: 450;
+      font-size: 16px;
+      line-height: 24px;
+    }
+  }
+}
+
+.boxDepto {
+  max-width: 96px;
+  max-height: 96px;
+  height: 10vw;
+  width: 10vw;
+  min-width: 64px;
+  min-height: 64px;
+  background: #f5f5f7;
+  background-repeat: no-repeat;
+  background-size: 64px 64px;
+  background-position: center;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+  transition: background-color 0.2s ease-out, width 0.2s ease-out, height,
+    0.2s ease-out;
+}
