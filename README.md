@@ -10,7 +10,7 @@ O Objetivo deste teste é avaliar o seu desempenho e conhecimento técnico na á
 ## Features
 
 - [x] Tela com ReactJS
-- [x] Utilização da API (https://sandboxmc.gateway.linkapi.com.br/v1/links)
+- [x] Utilização da [API](https://sandboxmc.gateway.linkapi.com.br/v1/links)
 - [x] Carrossel navegue por Departamento
 - [x] Ícones Departamentos
 - [x] Imagem Banner Principal
